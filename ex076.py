@@ -1,3 +1,5 @@
+#Exercício 76 – Lista de Preços com Tupla
+
 listagem = ('Lápis', 1.75,
            'Borracha', 2,
             'Caderno', 15.90,
