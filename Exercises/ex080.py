@@ -1,1 +1,17 @@
 # Exercício 80
+
+list = []
+for c in range(0, 5):
+    n = int(input("Digite um valor: "))
+    if c == 0 or n > list[-1]:
+        list.append(n)
+        print("Adicionado ao final da lista!")
+    else:
+        pos = 0 
+        while pos < len(list):
+            if n <= list[pos]:
+                list.insert(pos, n)
+                print(f"Adicionado na posição {pos}!")
+                break
+            pos += 1
+print(f"Os valores digitados em ordem foram: {list}")
