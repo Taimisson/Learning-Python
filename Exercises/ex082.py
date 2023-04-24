@@ -1,6 +1,8 @@
 # Exercício 82
 
-list, pares, impares = []
+list = []
+pares = []
+impares = []
 
 while True:
     num = (int(input("Digite um  valor: ")))
@@ -14,6 +16,12 @@ while True:
     if r == "N":
         break
     
+# for i, v in enumerate(list):
+#     if v % 2 == 0:
+#         pares.append(v)
+#     elif v % 2 == 1:
+#         impares.append(v)
+    
 # Deixa em ordem crescente
 list.sort()
 pares.sort()
@@ -23,3 +31,4 @@ impares.sort()
 print(f"A lista completa é {list}!")
 print(f"A lista de pares é {pares}!")
 print(f"A lista de ímpares é {impares}!")
+
