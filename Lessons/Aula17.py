@@ -1,4 +1,4 @@
-# Aula 17 - Listas (Parte 1)
+# Listas (Parte 1)
 
 # lanche = ["Hamburguer","Suco","Pizza", "Pudim"]
 # lanche[3] = "picolé"
