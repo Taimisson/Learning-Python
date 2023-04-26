@@ -16,3 +16,5 @@ print(pessoas[1][1])    #19
 print(pessoas[2][0])    #João
 print(pessoas[1])       #["Maria",19]
 
+# Exemplos
+
