@@ -8,5 +8,3 @@ Para acessar os exercícios resolvidos, basta navegar pelas pastas por módulo e
 
 <h1>Sobre 👥</h1>
 Este repositório é apenas para fins de estudo pessoal. Se você encontrar algum erro ou problema nos exercícios, sinta-se à vontade para entrar em contato comigo para que eu possa corrigi-los.
-
-🤝
