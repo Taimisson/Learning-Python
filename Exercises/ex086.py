@@ -1,15 +1,14 @@
 #Exercício 86   
 
-matriz = []
+matriz = [ [ 0, 0, 0] , [ 0, 0, 0] , [ 0, 0, 0] ]
 
-for i in range(3):
-    linha = []
-    for j in range(3):
-        valor = int(input(f"Digite o valor na posição {[i]}{[j]}: "))
-        linha.append(valor)
-    matriz.append(linha)
+for l in range(3): # Linha
+    for c in range(3): # Coluna
+         matriz[l][c] = int(input(f"Digite um valor para a posição {[l]},{[c]}: "))
+         
 
-for i in range(3):
-    for j in range(3):
-        print(matriz[i][j], end=" ")
+for l in range(3):
+    for c in range(3):
+        print(f"[{matriz[l][c]}]", end=" ")
     print()
+
