@@ -7,8 +7,8 @@ for l in range(3): # Linha
          matriz[l][c] = int(input(f"Digite um valor para a posição {[l]},{[c]}: "))
          
 
-for l in range(3):
-    for c in range(3):
-        print(f"[{matriz[l][c]}]", end=" ")
+for l in range(3): # Print Linhas
+    for c in range(3): # Print Colunas
+        print(f"[{matriz[l][c]:^3}]", end=" ")
     print()
 
