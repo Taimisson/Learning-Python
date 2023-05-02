@@ -3,15 +3,21 @@
 matriz = [ [ 0, 0, 0] , [ 0, 0, 0] , [ 0, 0, 0] ]
 soma_pares = maior_valor = soma_coluna = 0
 
+# Ler linhas e colunas
 for L in range(3):
     for C in range(3):
         matriz[L][C] = int(input(f"Digite um valor na posição {[L]},{[C]}: "))
-        if matriz[L][C] % 2 == 0: # Soma dos valores pares da matriz
+        
+        # Soma dos valores pares da matriz
+        if matriz[L][C] % 2 == 0: 
             soma_pares += matriz[L][C]  
-        if matriz[1][C] > maior_valor: # Maior valor da segunda linha
+        
+        # Maior valor da segunda linha
+        if matriz[1][C] > maior_valor: 
             maior_valor = matriz[1][C]    
             
-for L in range(3): # 
+# Soma da terceira coluna
+for L in range(3): 
     if matriz[L][2]:
         soma_coluna += matriz[L][2]
      
