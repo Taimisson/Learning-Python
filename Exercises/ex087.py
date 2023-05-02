@@ -1,8 +1,7 @@
 # Exercício 87
 
 matriz = [ [ 0, 0, 0] , [ 0, 0, 0] , [ 0, 0, 0] ]
-soma_pares = 0
-maior_valor = 0
+soma_pares = maior_valor = soma_coluna = 0
 
 for L in range(3):
     for C in range(3):
@@ -11,8 +10,11 @@ for L in range(3):
             soma_pares += matriz[L][C]  
         if matriz[1][C] > maior_valor: # Maior valor da segunda linha
             maior_valor = matriz[1][C]    
- 
- 
+            
+for L in range(3): # 
+    if matriz[L][2]:
+        soma_coluna += matriz[L][2]
+     
  # Printa a matriz
 print()
 for L in range(3):
@@ -20,7 +22,8 @@ for L in range(3):
         print(f"[{matriz[L][C]:^5}]", end=" ")
     print()
     
-# Outros dados
+    
+# Outros print
 soma_coluna = matriz[0][2] + matriz[1][2] + matriz[2][2]  
 print()
 print(f"A soma dos pares é {soma_pares}.")
