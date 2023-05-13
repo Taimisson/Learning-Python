@@ -7,12 +7,14 @@ aluno["Nome"] = str(input("Aluno: "))
 aluno["Média"] = float(input("Média: "))
 
 
-# Printa o nome e a média do aluno
-print(f"O nome do aluno é {aluno['Nome']}")
-print(f"A média do aluno é {aluno['Média']}")
-
-# Média maior ou igual a 7
+# Situação do aluno
 if aluno["Média"] >= 7:
-    print("O aluno foi aprovado!")
-else:
-    print("O aluno foi reprovado!")
+    aluno["Situação"] = "Aprovado"
+elif 5 <= aluno["Média"] < 7:
+    aluno["Situação"] = "Recuperação"
+else: 
+    aluno["Situação"] = "Reprovado"
+    
+# Printa o nome
+for k, v in aluno.items():
+    print(f"{k} é igual a {v}")
