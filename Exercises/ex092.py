@@ -18,4 +18,4 @@ if worker["CTPS"] != 0:
 
 print("--" *30)
 for k, v in worker.items():
-    print(f"{k} tem valor {v}.") 
+    print(f" - {k} tem valor {v}.") 
