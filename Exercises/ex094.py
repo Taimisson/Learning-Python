@@ -57,14 +57,20 @@ print("C) As mulheres cadastradas foram:", nomesMulheres)
     
     
 # Lista com as pessoas acima da média.
-# acimaMedia = [pessoa for pessoa in lista if pessoa["idade"] >= mediaIdade]
+acimaMedia = [pessoa for pessoa in lista if pessoa["idade"] >= mediaIdade]
     
 print("D) Lista das pessoas que estão acima da média: ")
-for pessoa in lista:
-    if pessoa["idade"] >= mediaIdade:
-        print("     ", end="")
-        for k, v in pessoa.items():
-            print(f"{k}: {v}; ", end="")
-        print()
+for pessoa in acimaMedia:
+    print(f"    Nome: {pessoa['nome']} | Sexo: {pessoa['sexo']} | Idade: {pessoa['idade']}")
+# for pessoa in lista:
+#     if pessoa["idade"] >= mediaIdade:
+#         print("     ", end="")
+#         for k, v in pessoa.items():
+#             print(f"{k}: {v}; ", end="")
+#         print()
 
- 
+# for pessoa in acimaMedia:
+#     print("     ", end="")
+#     for chave, valor in pessoa.items():
+#         print(f"{chave}: {valor} | ", end="")
+#     print()
