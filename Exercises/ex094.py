@@ -9,8 +9,8 @@ while True:
     nome = str(input("Nome: "))
     
     while True:
-        sexo = str(input("Sexo: [M/F] "))
-        if sexo.upper() in ["M", "F"]:
+        sexo = str(input("Sexo: [M/F] ")).upper()[0]
+        if sexo in ["M", "F"]:
             break
         else:
             print("Entrada inválida. Digite apenas 'M' ou 'F'!")
@@ -30,13 +30,12 @@ while True:
         listaMulheres.append(pessoa)
 
     while True:
-        resposta = input("Quer continuar? [S/N] ").lower()
-        if resposta == "s" or resposta == "n":
+        resposta = input("Quer continuar? [S/N] ").upper()[0]
+        if resposta in "SN":
             break
-        else:
-            print("Resposta inválida. Digite apenas 'S' para Sim ou 'N' para Não!")
+        print("Resposta inválida. Digite apenas 'S' para Sim ou 'N' para Não!")
             
-    if resposta == "n":
+    if resposta == "N":
         break
         
 # Obtém o número de pessoas cadastradas contando o tamanho da lista
@@ -53,15 +52,19 @@ print(f"A) Pessoas cadastradas: {cont}")
 print(f"B) A média de idade é: {mediaIdade:.2f} anos")
 
 # Lista de mulheres cadastradas
-if len(listaMulheres) >= 1: 
-    nomesMulheres = ', '.join(pessoa["nome"] for pessoa in listaMulheres)
-    print("C) As mulheres cadastradas foram:", nomesMulheres)
+nomesMulheres = ', '.join(pessoa["nome"] for pessoa in listaMulheres)
+print("C) As mulheres cadastradas foram:", nomesMulheres)
     
     
-# Imprime as pessoas acima da média.
-acimaMedia = [pessoa["idade"] for pessoa in lista if pessoa["idade"] > mediaIdade]
+# Lista com as pessoas acima da média.
+# acimaMedia = [pessoa for pessoa in lista if pessoa["idade"] >= mediaIdade]
     
 print("D) Lista das pessoas que estão acima da média: ")
-for pessoa in listaMulheres:
-    print(f"    Nome: {pessoa['nome']}, Sexo: {pessoa['sexo']}, Idade: {pessoa['idade']} ")
+for pessoa in lista:
+    if pessoa["idade"] >= mediaIdade:
+        print("     ", end="")
+        for k, v in pessoa.items():
+            print(f"{k}: {v}; ", end="")
+        print()
 
+ 
