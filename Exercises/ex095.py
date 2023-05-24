@@ -32,7 +32,7 @@ for k, v in enumerate(time):
     print()
     
 while True:
-    buscar = int(input("Mostrar dados de qual jogador? (999 para cancelar)"))
+    buscar = int(input("Mostrar dados de qual jogador? (999 para cancelar) "))
     if buscar == 999:
         break
     if buscar >= len(time):
