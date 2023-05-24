@@ -30,3 +30,14 @@ for k, v in enumerate(time):
     for d in v.values():
         print(f"{str(d):<15}", end="")
     print()
+    
+while True:
+    buscar = int(input("Mostrar dados de qual jogador? (999 para cancelar)"))
+    if buscar == 999:
+        break
+    if buscar >= len(time):
+        print(f"ERRO! Não existe jogador com código {buscar}!")
+    else:
+        print(f" -- LEVANTAMENTO DO JOGADOR {time[buscar]['Nome']}: ")
+        for i, g in enumerate(time[buscar]['Gols']):
+            print(f"    No jogo {i + 1} fez {g} gols.")
