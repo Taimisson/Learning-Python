@@ -41,3 +41,4 @@ while True:
         print(f" -- LEVANTAMENTO DO JOGADOR {time[buscar]['Nome']}: ")
         for i, g in enumerate(time[buscar]['Gols']):
             print(f"    No jogo {i + 1} fez {g} gols.")
+            
