@@ -18,12 +18,21 @@
 
 # -------
 
-def soma(a,b):
-    s = a + b
-    print(s)
+# def soma(a,b):
+#     print(f" A = {a} e B = {b}")
+#     s = a + b
+#     print(f"{a} + {b} = {s}")
     
-soma(4,5)
+    
+# # Programa principal
+# soma(b=4, a=5)
+# soma(7,2)
+# soma(3, 9, 5)
 
-soma(8,9)
+def contador(*num):
+    tam = len(num)
+    print(f"Recebi os valores {num} e são ao todo {tam} números")
+    
 
-soma(2,1)
+contador(5,3,6)
+contador(3,2)
