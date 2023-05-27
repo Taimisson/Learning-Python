@@ -29,10 +29,36 @@
 # soma(7,2)
 # soma(3, 9, 5)
 
-def contador(*num):
-    tam = len(num)
-    print(f"Recebi os valores {num} e são ao todo {tam} números")
+# -------
+
+# def contador(*num):
+#     tam = len(num)
+#     print(f"Recebi os valores {num} e são ao todo {tam} números")
     
 
-contador(5,3,6)
-contador(3,2)
+# contador(5,3,6)
+# contador(3,2)
+
+# -------
+
+# def dobra(lista):
+#     pos = 0
+#     while pos < len(lista):
+#         lista[pos] *= 2
+#         pos += 1
+
+
+# valores = [7,5,3,5,2]
+# dobra(valores)
+# print(valores)
+
+# -------
+
+def soma(*valores):
+    s = 0
+    for num in valores:
+        s += num
+    print(f"Somando os valores {valores} temos {s}")
+
+soma(5, 2)
+soma(2, 9, 4)
