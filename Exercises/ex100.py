@@ -24,3 +24,4 @@ números = []
 sorteia(números)
 resultado = somaPar(números)
 print(f"Somando os valores pares de {números}, temos {resultado}")
+
