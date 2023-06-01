@@ -1,9 +1,17 @@
 # Exercício 103
 
-nome = "Taimisson"
-gols = 20
+def ficha(nome='desconhecido', gols=0):
+    print(f"O jogador {nome} fez {gols} gols no campeonato.")
 
-jogador = {
-    "Nome": nome,
-    "Gols": gols
-}
+#Programa principal
+nomeJogador = str(input("Nome do jogador: "))
+numeroGols = input("Número de gols: ")
+
+if nomeJogador == "":
+    nomeJogador = "<desconhecido>"
+
+if numeroGols == "":
+    numeroGols = 0
+
+ficha(nomeJogador, numeroGols)
+
