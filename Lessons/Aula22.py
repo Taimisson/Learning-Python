@@ -2,7 +2,7 @@
 # Módulos e Pacotes
 
 # from uteis import fatorial, dobro
-import uteis
+from 
 
 # Programa principal
 num = int(input("Digite um valor: "))
