@@ -2,10 +2,10 @@
 # Módulos e Pacotes
 
 # from uteis import fatorial, dobro
-from 
+from uteis import numbers
 
 # Programa principal
 num = int(input("Digite um valor: "))
-fat = uteis.fatorial(num)
+fat = numbers.fatorial(num)
 print(f"O fatorial de {num} é {fat}")
-print(f"O dobro de {num} é {uteis.dobro(num)}")
+print(f"O dobro de {num} é {numbers.dobro(num)}")
