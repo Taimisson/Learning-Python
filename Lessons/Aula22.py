@@ -7,8 +7,15 @@ def fatorial(n):
         f *= c
     return f
 
+def dobro(n):
+    return n * 2;
+
+def triplo(n):
+    return n * 3;
+
 
 # Programa principal
 num = int(input("Digite um valor: "))
 fat = fatorial(num)
-print(f"O fatorial de {num} é {fat}.")
+print(f"O fatorial de {num} é {fat}")
+print(f"O dobro de {num} é {dobro(num)}")
