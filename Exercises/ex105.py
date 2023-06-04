@@ -1,6 +1,23 @@
 # Exercício 105
 
 def notas(*notas, situação=False):
+    """
+    Calcula informações sobre notas de alunos.
+
+    Args:
+        *notas: Notas dos alunos (número variável de argumentos).
+        situacao (bool, opcional): Indica se a situação do aluno deve ser calculada.
+                                   O valor padrão é False.
+
+    Returns:
+        dict: Dicionário com as seguintes informações:
+            - 'Quantidade de notas': Quantidade de notas recebidas.
+            - 'Maior nota': Maior nota entre as notas recebidas.
+            - 'Menor nota': Menor nota entre as notas recebidas.
+            - 'Média da turma': Média das notas recebidas (com duas casas decimais).
+            - 'Situação' (opcional): Situação do aluno ('Aprovado', 'Recuperação' ou 'Reprovado').
+
+    """
     resultado = {}
     resultado["Quantidade de Notas"] = len(notas)
     resultado["Maior nota"] = max(notas)
@@ -24,3 +41,4 @@ def notas(*notas, situação=False):
 resp = notas(5.5, 2.5, 1.5, situação=True)
 for key, value in resp.items():
     print(f"{key}: {value}")
+help(notas)
