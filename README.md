@@ -32,4 +32,4 @@ Para mais informações sobre o Curso em Vídeo e outros cursos oferecidos, visi
 
 ---
 
-Sinta-se à vontade para personalizar este README conforme suas necessidades e preferências. Lembre-se de atualizá-lo sempre que adicionar novos exercícios ou fizer alterações significativas no repositório. Aproveite os exercícios e bom estudo de Python! 🚀
+Sinta-se à vontade para personalizar este README conforme suas necessidades e preferências. Lembre-se de atualizá-lo sempre que adicionar novos exercícios ou fizer alterações significativas no repositório. Aproveite os exercícios e bom estudo de Python! 
