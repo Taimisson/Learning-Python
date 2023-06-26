@@ -1,4 +1,4 @@
-#Exercício 77 – Contando vogais em Tupla#
+#Exercício 77 – Contando vogais em Tupla
 
 palavras = ('aprender', 'programar', 'linguagem', 'python', 'curso', 'gratis', 'estudar', 'praticar', 'trabalhar', 'mercado', 'programador', 'futuro')
 
