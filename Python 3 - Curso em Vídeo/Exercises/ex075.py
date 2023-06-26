@@ -1,4 +1,4 @@
-#Exercício 75 – Análise de dados em uma Tupla#
+#Exercício 75 – Análise de dados em uma Tupla
 
 num = (int(input('Digite um número: ')),
        int(input('Digite um número: ')),
