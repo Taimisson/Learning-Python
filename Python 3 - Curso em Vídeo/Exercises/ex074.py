@@ -1,4 +1,4 @@
-#Exercício 74 – Maior e menor valores em Tupla#
+#Exercício 74 – Maior e menor valores em Tupla
 
 from random import randint
 
