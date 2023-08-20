@@ -1,50 +1,48 @@
-Aqui está o seu README atualizado:
+# Portfólio de Exercícios e Anotações de Programação 🐍💻
 
----
+Este é o meu repositório pessoal, uma coleção de exercícios, anotações e materiais de cursos online e instituições acadêmicas que estou utilizando para aprimorar minhas habilidades em programação Python. Aqui, centralizo recursos de várias fontes, incluindo a Unisinos University, Data Science Academy, Curso em Vídeo e outros que possam vir no futuro.
 
-# Exercícios de Python 🐍💻
+## Organização
 
-Este repositório contém os exercícios resolvidos de Python de diferentes fontes:
+O repositório é dividido em seções baseadas nas fontes de aprendizado:
 
-- **Curso em Vídeo**: Um curso online e gratuito de programação em Python ministrado pelo professor [Gustavo Guanabara](https://www.gustavoguanabara.com/).
-  
-- **Data Science Academy**: Uma plataforma educativa focada em ciência de dados, onde também se explora a programação em Python.
+- **Curso em Vídeo**: Exercícios e materiais do curso online gratuito de programação em Python ministrado pelo professor [Gustavo Guanabara](https://www.gustavoguanabara.com/).
 
-- **Unisinos de São Leopoldo**: Universidade onde obtive materiais complementares para aprimorar minhas habilidades em Python.
+- **Data Science Academy**: Recursos e práticas relacionados à programação em Python com foco na ciência de dados.
 
-Os exercícios foram resolvidos por mim e estão organizados em pastas por fonte e, subsequentemente, por módulo.
+- **Unisinos University**: Materiais, anotações e trabalhos da minha jornada acadêmica em programação na Unisinos.
 
-## Como usar 🤔
+- **Outras Fontes**: Em breve, esta seção abrigará conteúdo de novas fontes que venha a explorar.
 
-Para utilizar este repositório, siga as etapas abaixo:
+## Navegação e Utilização
 
-1. Certifique-se de ter o Python instalado em seu computador. Se você ainda não o possui, você pode baixá-lo no site oficial do Python em [python.org](https://www.python.org/).
+Para tirar o melhor proveito deste repositório, siga estas etapas:
 
-2. Clone este repositório em sua máquina local utilizando o seguinte comando:
+1. Certifique-se de ter o Python instalado em seu computador. Caso não tenha, você pode obtê-lo no site oficial do Python em [python.org](https://www.python.org/).
+
+2. Clone este repositório para o seu ambiente local usando o comando:
    ```
    git clone https://github.com/seu-usuario/Exercicios-Python.git
    ```
 
-3. Navegue pelas pastas para encontrar os exercícios resolvidos organizados por fonte e módulo. Cada pasta contém os arquivos `.py` correspondentes aos exercícios.
+3. Explore as pastas organizadas por fonte para encontrar exercícios, aulas e anotações. Os arquivos estão disponíveis em vários formatos, como `.py`, `.ipynb` e outros relevantes.
 
-4. Abra o arquivo `.py` de um exercício específico em um editor de texto ou ambiente de desenvolvimento Python para visualizar a solução.
+4. Abra os arquivos em um editor de texto ou ambiente de desenvolvimento Python para estudar as soluções, exemplos e anotações.
 
-5. Explore os exercícios, analise as soluções e estude o código para aprimorar suas habilidades em Python.
+5. À medida que avança nos materiais, você aprimora suas habilidades em Python e ganha insights em programação.
 
-## Contribuição e Feedback
+## Contribuições e Feedback
 
-Este repositório é dedicado aos exercícios resolvidos de Python das fontes mencionadas. Portanto, não são aceitas contribuições externas. No entanto, sinta-se à vontade para abrir uma "issue" se encontrar algum erro nos exercícios ou tiver alguma sugestão de melhoria.
+Embora eu gerencie este repositório principalmente para meu próprio progresso, valorizo muito o feedback construtivo. Se você identificar erros ou tiver sugestões de melhorias, sinta-se à vontade para criar uma "issue".
 
-## Recursos
+## Fontes de Aprendizado
 
-- [Curso em Vídeo](https://www.cursoemvideo.com/): Um projeto educacional que visa ensinar programação de forma gratuita e acessível a todos.
+- [Curso em Vídeo](https://www.cursoemvideo.com/): Projeto educacional que promove o aprendizado de programação acessível a todos.
 
 - [Data Science Academy](https://www.datascienceacademy.com.br/): Plataforma educativa focada em ciência de dados e programação.
 
-- [Unisinos de São Leopoldo](http://www.unisinos.br/): Instituição universitária onde foram obtidos materiais complementares.
+- [Unisinos University](http://www.unisinos.br/): Minha instituição acadêmica, oferecendo recursos de programação.
 
----
+## Licença
 
-Sinta-se à vontade para personalizar este README conforme suas necessidades e preferências. Lembre-se de atualizá-lo sempre que adicionar novos exercícios ou fizer alterações significativas no repositório. Aproveite os exercícios e bom estudo de Python! 
-
----
+Este repositório é disponibilizado sob a Licença [MIT](LICENSE). Sinta-se à vontade para utilizar, modificar e distribuir o conteúdo deste repositório de acordo com os termos da licença.
