@@ -1,48 +1,55 @@
-# Portfólio de Exercícios e Anotações de Programação 🐍💻
+# Learning Python Repository
 
-Este é o meu repositório pessoal, uma coleção de exercícios, anotações e materiais de cursos online e instituições acadêmicas que estou utilizando para aprimorar minhas habilidades em programação Python. Aqui, centralizo recursos de várias fontes, incluindo a Unisinos University, Data Science Academy, Curso em Vídeo e outros que possam vir no futuro.
+Welcome to the Learning Python repository! This repository is your dedicated space to document and organize your journey through various Python courses, educational materials, and your own explorations. Whether you're delving into algorithms, mastering Python for data science, or simply honing your programming skills, this repository will serve as a valuable resource.
 
-## Organização
+## Table of Contents
 
-O repositório é dividido em seções baseadas nas fontes de aprendizado:
+- [Introduction](#introduction)
+- [Courses](#courses)
+- [Resources](#resources)
+- [Projects](#projects)
+- [Notes](#notes)
+- [Contributing](#contributing)
+- [License](#license)
 
-- **Curso em Vídeo**: Exercícios e materiais do curso online gratuito de programação em Python ministrado pelo professor [Gustavo Guanabara](https://www.gustavoguanabara.com/).
+## Introduction
 
-- **Data Science Academy**: Recursos e práticas relacionados à programação em Python com foco na ciência de dados.
+Python is a versatile programming language used for a wide range of applications, from web development to data analysis. This repository is dedicated to your continuous learning journey in Python, providing you with a space to store notes, projects, and resources from various courses.
 
-- **Unisinos University**: Materiais, anotações e trabalhos da minha jornada acadêmica em programação na Unisinos.
+## Courses
 
-- **Outras Fontes**: Em breve, esta seção abrigará conteúdo de novas fontes que venha a explorar.
+1. **Algoritmos e Programação - Unisinos**
+   - Institution: Unisinos
+   - Description: This course introduces fundamental programming concepts and algorithms using Python. You'll learn problem-solving skills and how to implement solutions using Python programming.
+   - Progress: In Progress
 
-## Navegação e Utilização
+2. **Python 3 - Curso em Vídeo**
+   - Platform: Curso em Vídeo
+   - Description: Dive into the world of Python programming with this comprehensive course. Covering Python basics to more advanced topics, this course is designed for both beginners and intermediate learners.
+   - Progress: Completed
 
-Para tirar o melhor proveito deste repositório, siga estas etapas:
+3. **Python 3 - Data Science Academy**
+   - Platform: Data Science Academy
+   - Description: Learn Python for data science, exploring libraries like NumPy, Pandas, and Matplotlib. This course equips you with the skills needed for data manipulation, analysis, and visualization.
+   - Progress: Not Started
 
-1. Certifique-se de ter o Python instalado em seu computador. Caso não tenha, você pode obtê-lo no site oficial do Python em [python.org](https://www.python.org/).
+## Resources
 
-2. Clone este repositório para o seu ambiente local usando o comando:
-   ```
-   git clone https://github.com/seu-usuario/Exercicios-Python.git
-   ```
+- [Python Cheat Sheet](resources/python-cheat-sheet.pdf): A quick reference guide for Python syntax, data structures, and common functions.
 
-3. Explore as pastas organizadas por fonte para encontrar exercícios, aulas e anotações. Os arquivos estão disponíveis em vários formatos, como `.py`, `.ipynb` e outros relevantes.
+## Projects
 
-4. Abra os arquivos em um editor de texto ou ambiente de desenvolvimento Python para estudar as soluções, exemplos e anotações.
+- [Simple Web Scraper](projects/simple-web-scraper/): Build a basic web scraper using Python to extract data from websites and store it for analysis.
 
-5. À medida que avança nos materiais, você aprimora suas habilidades em Python e ganha insights em programação.
+## Notes
 
-## Contribuições e Feedback
+- [Python Basics](notes/python-basics.md): Essential Python concepts, including variables, data types, loops, and conditional statements.
+- [Data Manipulation with Pandas](notes/data-manipulation-pandas.md): Learn how to use Pandas for data manipulation and analysis, including loading, cleaning, and transforming data.
 
-Embora eu gerencie este repositório principalmente para meu próprio progresso, valorizo muito o feedback construtivo. Se você identificar erros ou tiver sugestões de melhorias, sinta-se à vontade para criar uma "issue".
+## Contributing
 
-## Fontes de Aprendizado
+If you wish to contribute to this repository by adding resources, notes, or sharing your insights, feel free to submit a pull request. Your contributions are valuable to the community!
 
-- [Curso em Vídeo](https://www.cursoemvideo.com/): Projeto educacional que promove o aprendizado de programação acessível a todos.
+## License
 
-- [Data Science Academy](https://www.datascienceacademy.com.br/): Plataforma educativa focada em ciência de dados e programação.
-
-- [Unisinos University](http://www.unisinos.br/): Minha instituição acadêmica, oferecendo recursos de programação.
-
-## Licença
-
-Este repositório é disponibilizado sob a Licença [MIT](LICENSE). Sinta-se à vontade para utilizar, modificar e distribuir o conteúdo deste repositório de acordo com os termos da licença.
+This repository is licensed under the [MIT License](LICENSE). You're encouraged to use, modify, and distribute the content within this repository for educational purposes.
