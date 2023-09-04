@@ -33,18 +33,10 @@ Python is an incredibly versatile programming language, deployed across a spectr
    - Description: Awaiting my exploration into Python for data science, delving into libraries such as NumPy, Pandas, and Matplotlib. Equipping myself with skills for data manipulation, analysis, and visualization.
    - Status: Not Started
 
-## Handy Resources:
-
-- [Python Cheat Sheet](resources/python-cheat-sheet.pdf): A nifty reference guide encompassing Python syntax, data structures, and common functions.
-
-## My Projects:
-
-- [Simple Web Scraper](projects/simple-web-scraper/): Crafting a rudimentary web scraper with Python to extract data from websites for further analysis.
-
 ## Personal Notes:
 
-- [Python Basics](notes/python-basics.md): Chronicles essential Python concepts, encompassing variables, data types, loops, and conditional statements.
-- [Data Manipulation with Pandas](notes/data-manipulation-pandas.md): Immersing myself in the art of using Pandas for data manipulation and analysis. Learning how to load, cleanse, and transform data.
+- Chronicles essential Python concepts, encompassing variables, data types, loops, and conditional statements.
+
 
 ## Contributions Welcome:
 
