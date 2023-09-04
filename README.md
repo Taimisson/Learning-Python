@@ -6,8 +6,6 @@ Welcome to my dedicated repository for learning Python! Here, I curate and organ
 
 - [Introduction](#introduction)
 - [My Course Path](#my-course-path)
-- [Handy Resources](#handy-resources)
-- [My Projects](#my-projects)
 - [Personal Notes](#personal-notes)
 - [Contributions Welcome](#contributions-welcome)
 - [License](#license)
@@ -36,7 +34,6 @@ Python is an incredibly versatile programming language, deployed across a spectr
 ## Personal Notes:
 
 - Chronicles essential Python concepts, encompassing variables, data types, loops, and conditional statements.
-
 
 ## Contributions Welcome:
 
