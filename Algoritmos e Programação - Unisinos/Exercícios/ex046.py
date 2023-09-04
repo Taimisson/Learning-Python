@@ -8,20 +8,34 @@
 # Caso alguma das notas digitadas seja negativa, retorne o texto "ERRO"
 
 
+# def media_notas(n1, n2, n3):
+#     if n1 < 0 or n2 < 0 or n3 < 0:
+#         return "ERRO!"
+#     else:    
+#         media = (n1 + n2 + n3) / 3
+        
+#         if media <= 4:
+#             return f"Média do aluno: {media:.2f} | Conceito: D"
+#         elif media <= 7:
+#             return f"Média do aluno: {media:.2f} | Conceito: C"
+#         elif media <= 9:
+#             return f"Média do aluno: {media:.2f} | Conceito: B"
+#         else:
+#             return f"Média do aluno: {media:.2f} | Conceito: A"
+    
 def media_notas(n1, n2, n3):
-    if n1 < 0 or n2 < 0 or n3 < 0:
-        return "ERRO!"
-    else:    
+    if n1 > 0 and n2 > 0 and n3 > 0:
         media = (n1 + n2 + n3) / 3
         
         if media <= 4:
             return f"Média do aluno: {media:.2f} | Conceito: D"
-        elif media > 4 and media <= 7:
+        elif media <= 7:
             return f"Média do aluno: {media:.2f} | Conceito: C"
-        elif media > 7 and media <= 9:
+        elif media <= 9:
             return f"Média do aluno: {media:.2f} | Conceito: B"
-        elif media > 9 and media <= 10:
+        else:
             return f"Média do aluno: {media:.2f} | Conceito: A"
+    return "ERRO!"  
     
 
 print(media_notas(8.1,9,10))
