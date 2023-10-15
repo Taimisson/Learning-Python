@@ -30,3 +30,21 @@
     * Gene
 
 # Fuzzy: Relativo
+
+
+# Algoritmos Heurísticos x Determinísticos
+
+- Determinístico
+    * 2 + 2 = 5
+    * Qual o valor?
+
+- Heurístico
+    - Qual o mais bonito?
+
+
+# Algoritmos de Roteamento - Uso de aplicações
+
+- Robótica - Destino do Robô
+    * Gerar um mapa por meio da exploração do robô
+
+- Redes
