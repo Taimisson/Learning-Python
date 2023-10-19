@@ -28,4 +28,27 @@
     - Gera população aleatória 
     - Define a população dentro de uma região de busca
 
-    
+    * Passo 1: Seleção dos melhores indivíduos iniciais
+    - Método de seleção por roleta
+    - Seleciona os melhores indivíduos dada sua probabilidade
+
+    * Passo 2: Recombinação de indivíduos
+    - A recombinação vai recombinaara os dois melhores indivíduos
+    - AA meta é gerar um indivíduo melhor do que seus pais
+
+    * Passo 3: Seleção dos melhores indivíduos iniciais
+    - Selecionar um ponto de cromossomo e gerar mutação 
+    - Evita a convergência prematura do AG
+    // Antes da mutação: 11100
+    // Depois: 11000
+
+# Funcionamento na prática...
+
+* Gerar soluções para o comportamento dos personagens em um game 
+- Evitar comportamentos repetidos entre os agentes do game
+- Gerar comportamentos novos para cada agente 
+- Ensinar um agente em seu funcionamento desde o ponto "zero". 
+    * Ensinar o comportamento do agente do "zero"
+    * Aprendizado por tentativa e erro
+
+#
