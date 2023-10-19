@@ -51,4 +51,10 @@
     * Ensinar o comportamento do agente do "zero"
     * Aprendizado por tentativa e erro
 
-#
+# Implementação
+
+- Soluções que satisfazem meu problema (problema da mochila)
+
+// Importância dos algoritmos genéticos, existe bastante e soluciona muitos problemas 
+
+
