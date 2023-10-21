@@ -52,3 +52,15 @@ Prolog responde X = Flores
 
 # Paradigmas de Programação Orientada a Objetos
 
+- Na programação Orientada a Objetos temos como objetivo transformar nosso problema do mundo real em partes para o computador.
+    * Poliformismo 
+    * Herança 
+    * Encapsulamento
+    * Abstração
+
+# Paradigmaa de Programação Multi-Paradigma
+
+- Scilab (laboratório de matriz) é um ambiente de computação numérica multi-paradigmaa
+
+    * Ferramenta Scilab e Linguagem Python
+
