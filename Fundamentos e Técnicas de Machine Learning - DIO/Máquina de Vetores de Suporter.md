@@ -26,3 +26,13 @@
 
 * SVM ( Support Vector Machine) and RNA (Rede Neural Artificial)
 
+# Por que "Máquina de Vetores"?
+
+- Os "vetores de suporte" são simplesmente as coordenadas da observação individual. Uma SVM é uma fronteira que melhor realiza as duas classes (hiperplano / linha).
+
+# Desenvolvimento
+
+- Desenvolvendo a hipótese 
+    * Desenvolvendo a hipótese: aqui, temos três hiperplanos(A, B e C) e todos divididos bem em classes. Agora, como podemos identificar o hiperplano certo? 
+
+    
