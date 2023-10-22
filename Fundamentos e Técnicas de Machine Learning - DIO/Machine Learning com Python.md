@@ -34,10 +34,10 @@
 
 - Estruturas Condicionais
 - Estruturas Repetitivas
-    """lista = [1, 2, 3, 4, 5]
+        lista = [1, 2, 3, 4, 5]
 
-    for item in lista:
-        print(item)"""
+        for item in lista:
+            print(item)
 
 
 
