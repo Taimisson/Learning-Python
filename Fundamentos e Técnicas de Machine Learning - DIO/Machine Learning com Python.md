@@ -46,3 +46,6 @@
         while contador < 10:
         print(contador)
         contador += 1
+
+
+# Primeiro Código em Python para ML
