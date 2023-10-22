@@ -33,11 +33,16 @@
         < class 'str' >
 
 - Estruturas Condicionais
-- Estruturas Repetitivas
+
+- Estrutura Repetitiva "For"
         lista = [1, 2, 3, 4, 5]
 
         for item in lista:
             print(item)
 
+- Estrutura Repetitiva "While"
+        contador = 0 
 
-
+        while contador < 10:
+        print(contador)
+        contador += 1
