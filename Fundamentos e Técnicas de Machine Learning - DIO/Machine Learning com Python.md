@@ -24,11 +24,11 @@
 
     Exemplos: 
 
-        """"nome = "Guilherme"" 
+        nome = "Guilherme"" 
         profissao = 'Engenheiro de Sofware' 
         
         print(type(profissao))
-        print(type(nome))""""
+        print(type(nome)
 
         < class 'str' >
 
