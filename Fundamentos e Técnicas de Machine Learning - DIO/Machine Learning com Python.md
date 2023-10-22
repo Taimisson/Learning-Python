@@ -5,8 +5,9 @@
 - Bibliotecas de ML;
 - Configuração de GPU e CUDA
 
-- Sublime
+- Sublime (Programar em Python)
 
-> print("Hello World!") Hello World!
+> print("Hello World!") 
+- Hello World!
 
 
